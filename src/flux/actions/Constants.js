@@ -4,6 +4,7 @@ const constants = {
     START: 'login_start',
     SUCCESS: 'login_success',
     FAILURE: 'login_failure',
+    LOGIN:'login'
 };
 
 export default constants;
