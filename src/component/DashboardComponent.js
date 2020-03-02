@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, StyleSheet } from 'react-native';
 import { DataTable } from 'react-native-paper';
 
-class DashboardCOmponent extends Component {
+class DashboardComponent extends Component {
 
     render() {
         const { tableData } = this.props
@@ -34,11 +34,4 @@ class DashboardCOmponent extends Component {
     }
 }
 
-const styles = StyleSheet.create({
-    button: {
-        width: '40%',
-        marginTop: 20
-    }
-})
-
-export default DashboardCOmponent;
+export default DashboardComponent;
